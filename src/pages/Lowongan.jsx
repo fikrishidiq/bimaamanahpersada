@@ -23,27 +23,35 @@ export default function Lowongan() {
     const jobs = [
         {
             id: 1,
-            title: 'Operator Produksi',
-            type: 'Full-time',
-            location: 'Kawasan Industri Cikarang, Kab. Bekasi',
+            title: 'Operator Forklift',
+            type: 'Kontrak',
+            location: 'Jabodetabek',
             postedDate: '2026-08-13',
-            desc: 'Dibutuhkan segera operator produksi untuk penempatan pabrik manufaktur. Bersedia bekerja dengan sistem shift.'
+            desc: 'Mengoperasikan forklift untuk memindahkan, mengangkat, menata, dan menurunkan barang di area gudang secara aman, efisien, serta sesuai dengan prosedur keselamatan kerja.'
         },
         {
             id: 2,
-            title: 'Admin Inbound / Outbound',
-            type: 'Kontrak',
-            location: 'Tambun Selatan, Kab. Bekasi',
-            postedDate: '2026-08-10',
-            desc: 'Bertanggung jawab atas pencatatan barang masuk dan keluar, membuat laporan harian, dan teliti dalam administrasi.'
+            title: 'Checker/Packer, Picker, TKBM',
+            type: 'Daily Worker',
+            location: 'Jabodetabek',
+            postedDate: '2026-08-13',
+            desc: 'Bertanggung jawab dalam mendukung operasional gudang, meliputi pengecekan jumlah, jenis, dan kondisi barang, pengambilan barang sesuai order atau picking list, proses packing, serta kegiatan bongkar muat, pemindahan, dan penataan barang sesuai prosedur operasional dan standar keselamatan kerja.'
         },
         {
             id: 3,
-            title: 'Cleaning Service',
-            type: 'Full-time',
-            location: 'Jakarta Selatan',
-            postedDate: '2026-08-08',
-            desc: 'Dicari tenaga kebersihan untuk area perkantoran. Memiliki pengalaman minimal 1 tahun di bidang yang sama.'
+            title: 'Admin Warehouse',
+            type: 'Kontrak',
+            location: 'Jabodetabek',
+            postedDate: '2026-08-18',
+            desc: 'Bertanggung jawab mengelola administrasi dan pencatatan aktivitas gudang, seperti input data barang, stok, dokumen penerimaan dan pengiriman, serta memastikan data warehouse tercatat dengan akurat dan rapi.'
+        },
+        {
+            id: 4,
+            title: 'Staff Warehouse',
+            type: 'Kontrak',
+            location: 'Jabodetabek',
+            postedDate: '2026-08-14',
+            desc: 'Bertanggung jawab dalam kegiatan operasional gudang, meliputi penerimaan, penyimpanan, pengambilan, pengecekan, pemindahan, dan pengiriman barang sesuai prosedur yang berlaku.'
         }
     ];
 
