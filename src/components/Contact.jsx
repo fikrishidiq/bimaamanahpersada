@@ -66,7 +66,7 @@ export default function Contact() {
                                 <div>
                                     <h4 className="text-sm font-bold text-slate-900">Email</h4>
                                     <p className="text-xs sm:text-sm text-slate-600 mt-1">
-                                        bimaamanahpersada@yahoo.com
+                                        bap_pt@yahoo.com
                                     </p>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ export default function Contact() {
                             </p>
 
                             <a
-                                href="https://wa.me/6282168624827?text=Halo%20Admin%20PT%20Bima%20Amanah%20Persada,%20saya%20ingin%20berkonsultasi."
+                                href="https://wa.me/6282191607230?text=Halo%20Admin%20PT%20Bima%20Amanah%20Persada,%20saya%20ingin%20berkonsultasi."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex justify-center items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold px-8 py-4 rounded-xl transition-all hover:-translate-y-1 hover:shadow-lg text-base shadow-sm w-full sm:w-auto"

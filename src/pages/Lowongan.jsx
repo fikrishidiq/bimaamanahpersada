@@ -21,30 +21,30 @@ const getRelativeTime = (dateString) => {
 export default function Lowongan() {
     // format standar: YYYY-MM-DD
     const jobs = [
-        // {
-        //     id: 1,
-        //     title: 'Operator Produksi',
-        //     type: 'Full-time',
-        //     location: 'Kawasan Industri Cikarang, Kab. Bekasi',
-        //     postedDate: '2026-08-13',
-        //     desc: 'Dibutuhkan segera operator produksi untuk penempatan pabrik manufaktur. Bersedia bekerja dengan sistem shift.'
-        // },
-        // {
-        //     id: 2,
-        //     title: 'Admin Inbound / Outbound',
-        //     type: 'Kontrak',
-        //     location: 'Tambun Selatan, Kab. Bekasi',
-        //     postedDate: '2026-08-10',
-        //     desc: 'Bertanggung jawab atas pencatatan barang masuk dan keluar, membuat laporan harian, dan teliti dalam administrasi.'
-        // },
-        // {
-        //     id: 3,
-        //     title: 'Cleaning Service',
-        //     type: 'Full-time',
-        //     location: 'Jakarta Selatan',
-        //     postedDate: '2026-08-08',
-        //     desc: 'Dicari tenaga kebersihan untuk area perkantoran. Memiliki pengalaman minimal 1 tahun di bidang yang sama.'
-        // }
+        {
+            id: 1,
+            title: 'Operator Produksi',
+            type: 'Full-time',
+            location: 'Kawasan Industri Cikarang, Kab. Bekasi',
+            postedDate: '2026-08-13',
+            desc: 'Dibutuhkan segera operator produksi untuk penempatan pabrik manufaktur. Bersedia bekerja dengan sistem shift.'
+        },
+        {
+            id: 2,
+            title: 'Admin Inbound / Outbound',
+            type: 'Kontrak',
+            location: 'Tambun Selatan, Kab. Bekasi',
+            postedDate: '2026-08-10',
+            desc: 'Bertanggung jawab atas pencatatan barang masuk dan keluar, membuat laporan harian, dan teliti dalam administrasi.'
+        },
+        {
+            id: 3,
+            title: 'Cleaning Service',
+            type: 'Full-time',
+            location: 'Jakarta Selatan',
+            postedDate: '2026-08-08',
+            desc: 'Dicari tenaga kebersihan untuk area perkantoran. Memiliki pengalaman minimal 1 tahun di bidang yang sama.'
+        }
     ];
 
     return (
@@ -127,7 +127,7 @@ export default function Lowongan() {
                     <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
                         Meskipun posisi yang Anda cari belum tersedia, jangan ragu untuk mengirimkan Curriculum Vitae (CV) Anda. Kami akan menghubungi Anda jika ada peluang yang sesuai.
                     </p>
-                    <a href="mailto:bimaamanahpersada@yahoo.com" className="inline-block bg-white text-blue-600 font-bold px-8 py-3.5 rounded-xl hover:bg-slate-50 transition-colors shadow-sm">
+                    <a href="mailto:bap_pt@yahoo.com" className="inline-block bg-white text-blue-600 font-bold px-8 py-3.5 rounded-xl hover:bg-slate-50 transition-colors shadow-sm">
                         Kirim CV Sekarang
                     </a>
                 </div>
